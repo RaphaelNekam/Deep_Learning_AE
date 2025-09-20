@@ -1,4 +1,23 @@
 # Neural Network Classification of actions performed by humans in short video clips
+
+## Table of Contents
+- [General](#general)
+- [Dataset](#dataset)
+- [Pre-processing](#pre-processing)
+  - [Split in training, validation, test set](#split-in-training-validation-test-set)
+  - [Silhouette extraction](#silhouette-extraction)
+- [Data Augmentation](#data-augmentation)
+  - [Scaling](#scaling)
+  - [Binarisation](#binarisation)
+- [Architecture](#architecture)
+  - [Final Architecture:](#final-architecture)
+- [Loss](#loss)
+- [Training](#training)
+- [Classification & Testing](#classification--testing)
+- [Generalisation](#generalisation)
+- [Further Steps](#further-steps)
+
+
 ## General
 A neural network was to be designed to classify movement of humans recorded as short video clips, specifically a simple [Weizmann dataset](https://mega.nz/file/omlVQJrB#OJGx0r90H4ymNt7ZhikVGmroQFN0TDvgnH5ssIjRuJ0) was used. 
 
